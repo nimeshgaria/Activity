@@ -12,10 +12,14 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
     private Button showGuess;
     private EditText enterGuess;
     private final int REQUEST_CODE = 2;
 
+
+
+    String names;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
